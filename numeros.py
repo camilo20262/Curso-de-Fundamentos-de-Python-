@@ -20,3 +20,8 @@ xy = int(y)
 print(type(xy))
 # muestra en pantalla es 2
 print(xy)
+
+import random
+
+
+print(random.randrange(1,10)) # output numero aleatorio entre 1 y 9
