@@ -13,3 +13,17 @@ mi_variable2 = "números al final"
 # 2variable = "no puede iniciar con número"
 # mi-variable = "no se permite guion medio"
 # mi variable = "no se permiten espacios"
+
+# Asignación básica
+x = "Esta es una variable"
+print(x)  # Imprime: Esta es una variable
+
+# Reasignación (sobreescritura)
+x = "acá estoy escribiendo otra cosa"
+print(x)  # Imprime: acá estoy escribiendo otra cosa
+
+# Case sensitive
+x = "minúscula"
+X = "mayúscula"
+print(x)  # minúscula
+print(X)  # mayúscula
