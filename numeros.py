@@ -12,3 +12,11 @@ xf = float(x)
 print(type(xf))
 #muestra en pantalla es 1.0
 print(xf)
+
+
+#cambiar tipo de dato y FLOAT a INT
+
+xy = int(y)
+print(type(xy))
+# muestra en pantalla es 2
+print(xy)
