@@ -39,3 +39,36 @@ espacios = "   este es el texto   "
 sin_espacios = espacios.strip()
 print(sin_espacios) # es una forma 
 print(espacios.strip()) # es otra forma 
+
+
+#
+texto = "Este es un texto"
+print(texto[0])   # E
+print(texto[5])   # e
+
+
+print(texto[0:4])   # Este
+# Hasta el final contando manualmente: cuidado con la última letra
+print(texto[0:15])  # falta la 'o' final si 15 apunta a esa posición
+
+
+print(texto[:7])   # "Este es"
+print(texto[5:])   # desde la "e" de "es" hasta el final
+# De la "e" de "es" hasta incluir la "x": fin como -2 para abarcar la X
+print(texto[5:-2])
+
+curso = "Este curso es de JavaScript" # "Este curso es de Python" Si hubiera múltiples "JavaScript", las reemplaza todas
+print(curso.replace("JavaScript", "Python"))
+
+texto_dividido = texto.split(" ")
+print(texto_dividido)  # ['Este', 'es', 'un', 'texto']
+
+
+texto3 = "Este Texto tiene MAYÚSCULAS y minúsculas"
+buscado = "mayúsculas"
+print(buscado in texto3)  # False
+print(buscado.lower() in texto3.lower())  # True
+
+print("texto".lower() in texto3.lower())# busca TEXTO lo convierte en lower y lo encuentra 
+
+
