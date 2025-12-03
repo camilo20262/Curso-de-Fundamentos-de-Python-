@@ -89,6 +89,17 @@ adjetivos = ["rica", "saludable"]
 
 for adjetivo in adjetivos:
     for fruta in frutas:
+        if fruta == "naranja":
+            continue
+        print(fruta, adjetivo)
+
+print("-----")
+
+frutas = ["manzana", "naranja", "kiwi"]
+adjetivos = ["rica", "saludable"]
+
+for fruta in frutas:
+    for adjetivo in adjetivos:
         print(fruta, adjetivo)
 
 
