@@ -35,6 +35,18 @@ print(frutas)
 
 # eliminar un elemento al azar
 eliminado = frutas.pop()  # elemento al azar
-print(eliminado)
+print(eliminado) # el elemento eliminado
 frutas.clear()
 print(frutas)             # set()
+
+# operaciones con conjuntos
+A = {"A", "B", "C"}
+B = {"C", "D", "E"}
+# uniones, intersecciones y diferencias
+C_union = A.union(B)             # {'A', 'B', 'C', 'D', 'E'}
+I_inter = A.intersection(B)      # {'C'}
+D_diff  = A.difference(B)        # {'A', 'B'}
+
+print(C_union)
+print(I_inter)
+print(D_diff)
