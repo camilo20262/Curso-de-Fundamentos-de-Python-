@@ -41,3 +41,31 @@ else:
 if "banana" in frutas:
     print("la banana está dentro de las frutas")
 # la banana está dentro de las frutas
+
+
+## ejercicio con vehiculos 
+vehiculos = ["auto", "moto", "avión"]
+
+# Agregar al final
+vehiculos.append("barco")
+# ['auto', 'moto', 'avión', 'barco']
+
+# Insertar por índice (desplaza lo que sigue)
+vehiculos.insert(1, "bicicleta")
+# ['auto', 'bicicleta', 'moto', 'avión', 'barco']
+
+# Eliminar por valor
+vehiculos.remove("auto")
+# ['bicicleta', 'moto', 'avión', 'barco']
+
+# Eliminar por índice
+vehiculos.pop(1)  # quita 'moto'
+# ['bicicleta', 'avión', 'barco']
+
+# Ordenar alfabéticamente
+vehiculos.sort()
+# ['avión', 'barco', 'bicicleta']
+
+# Orden invertido
+vehiculos.reverse()
+# ['bicicleta', 'barco', 'avión']
