@@ -22,3 +22,8 @@ print(type(mixta))  # lista
 
 print(len(mixta))   # 3
 print(len(frutas))  # 4
+
+# Suponiendo frutas = ['manzana', 'banana', 'mandarina', 'naranja']
+print(frutas[0:2])  # ['manzana', 'banana']
+print(frutas[:2])   # ['manzana', 'banana']
+print(frutas[1:])   # ['banana', 'mandarina', 'naranja']
