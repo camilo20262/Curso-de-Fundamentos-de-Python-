@@ -31,3 +31,10 @@ print(frutas)
 frutas.remove("mango")   # ok si "mango" está; error si no.
 frutas.discard("pera")   # ok esté o no esté "pera".
 print(frutas)
+
+
+# eliminar un elemento al azar
+eliminado = frutas.pop()  # elemento al azar
+print(eliminado)
+frutas.clear()
+print(frutas)             # set()
