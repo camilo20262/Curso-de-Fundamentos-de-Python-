@@ -3,3 +3,7 @@ frutas = {"manzana", "naranja", "mandarina", "naranja"}
 print(frutas)        # {'manzana', 'naranja', 'mandarina'} (el duplicado se ignora)
 print(type(frutas))  # 
 print(len(frutas))   # 3
+
+# ciclor sobre un conjunto
+for item in frutas:
+    print(item)  # Puede salir en cualquier orden.
