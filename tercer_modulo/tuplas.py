@@ -35,3 +35,17 @@ tupla3 = tupla1 + tupla2
 print(tupla3)                      # (1, 2, 3, 3, 4, 5)
 
 print(tupla * 2)                   # ('Python', 5, True, 'Python', 5, True)
+
+#recorrer y cómo “modificar” con el truco
+print("-----")
+tupla = ("Python", "JavaScript", "Go")
+for item in tupla:
+    print('lenguaje de programacion',item)
+
+tupla_a_modificar = ("Python", "JavaScript", "Go")
+
+lista_comodin = list(tupla_a_modificar)   # casting a lista
+lista_comodin.append("React JS")          # modificar con append
+tupla_a_modificar = tuple(lista_comodin)  # volver a tupla
+
+print(tupla_a_modificar)                  # ('Python', 'JavaScript', 'Go', 'React JS')
