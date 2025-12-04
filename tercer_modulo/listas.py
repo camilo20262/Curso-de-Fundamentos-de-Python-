@@ -27,3 +27,17 @@ print(len(frutas))  # 4
 print(frutas[0:2])  # ['manzana', 'banana']
 print(frutas[:2])   # ['manzana', 'banana']
 print(frutas[1:])   # ['banana', 'mandarina', 'naranja']
+
+# comprobar si un elemento está en la lista
+if "maracuya" in frutas:
+    print("la manzana está dentro de las frutas")
+elif "kiwi" in frutas:
+    print("el kiwi está dentro de las frutas")
+else:
+    print("la fruta no está en la lista")
+# la fruta no está en la lista
+
+
+if "banana" in frutas:
+    print("la banana está dentro de las frutas")
+# la banana está dentro de las frutas
