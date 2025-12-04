@@ -69,3 +69,17 @@ vehiculos.sort()
 # Orden invertido
 vehiculos.reverse()
 # ['bicicleta', 'barco', 'avión']
+
+
+
+# combinar listas
+coleccion1 = [1, 2, 3]
+coleccion2 = [4, 5, 6]
+
+# Nueva lista concatenada
+coleccion3 = coleccion1 + coleccion2
+print(coleccion3)  # [1, 2, 3, 4, 5, 6]
+
+# Extender en sitio (modifica coleccion1)
+coleccion1.extend(coleccion2)
+print(coleccion1)  # [1, 2, 3, 4, 5, 6]
