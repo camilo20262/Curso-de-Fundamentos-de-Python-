@@ -25,3 +25,9 @@ print(frutas)
 
 frutas.add("Sandia")# agrega un elemento
 print(frutas)
+
+
+# eliminar elementos
+frutas.remove("mango")   # ok si "mango" está; error si no.
+frutas.discard("pera")   # ok esté o no esté "pera".
+print(frutas)
