@@ -20,4 +20,9 @@ print(type(fruta))                 #tupla
 # diferentes tipos de datos en una tupla
 tupla = ("Python", 5, True)
 print(tupla)                       # ('Python', 5, True)
-print(type(tupla))                 #
+print(type(tupla))                 # tupla
+
+# Desempaquetado de tuplas
+tupla = ("Python", 5, True)
+x, y, z = tupla
+print(x, y, z)                     # Python 5 True
