@@ -12,3 +12,16 @@ for item in frutas:
 conjunto = {"Python", 156, True}
 print(conjunto)      # Orden no garantizado.
 print(type(conjunto))#
+
+# comprobar si un elemento está en el conjunto
+print("manzana" in frutas)  # True
+print("pera" in frutas)     # False
+
+
+frutas.add("pera") # agrega un elemento
+frutas_tropicales = {"piña", "mango"} # agrega varios elementos
+frutas.update(frutas_tropicales)  # #agrega varios elementos 
+print(frutas)
+
+frutas.add("Sandia")# agrega un elemento
+print(frutas)
