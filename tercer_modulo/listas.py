@@ -14,3 +14,11 @@ print(frutas)              # ['manzana', 'banana', 'mandarina']
 # Duplicados
 frutas.append("naranja")   # ahora hay otra 'naranja' al final
 print(frutas)              # ['manzana', 'banana', 'mandarina', 'naranja']
+
+# Listas pueden contener diferentes tipos de datos
+mixta = ["TuNombre", 42, True]
+print(mixta)        # ['TuNombre', 42, True]
+print(type(mixta))  # lista
+
+print(len(mixta))   # 3
+print(len(frutas))  # 4
