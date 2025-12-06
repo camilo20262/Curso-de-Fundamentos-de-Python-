@@ -7,6 +7,7 @@ z = 1j
 print(type(x))
 print(type(y))
 print(type(z))
+print("hola esto es una preuba con el numero"+x)
  
 # cambiar tipo de dato x INT a FLOAT 
 xf = float(x)
